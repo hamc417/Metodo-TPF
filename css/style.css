@@ -32,6 +32,7 @@ body{
     color: var(--blanco);
 }
 
+
 /*Globales*/
 
 .contenedor{
@@ -50,12 +51,12 @@ h1, h2, h3, h4{
     text-align: center;
 }
 
-/* h1{
+ /* h1{
     font-size: 4.8rem;
-    }
+    } */
 h2{
     font-size: 4rem; 
-}*/
+}
 h3{
     font-size: 3.2rem;
 }
@@ -115,9 +116,8 @@ h1{
 }
 @media (min-width: 768px) {
    .header__texto{
-    max-width: 95%;
-    /* margin: 10rem; */
-    font-size: 3.8rem;
+
+    font-size: 2.8rem;
    }
  }
 
@@ -147,7 +147,7 @@ border-radius: 2rem;
   font-family: var(--fuenteHeading);
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 2rem;        /*separacion hacia abajo*/
+  margin: 2rem 0 2rem 0;        /*separacion hacia abajo*/
   border-radius: .5rem;
   border: none;
  }
