@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--permite poner los caracteres latinos como la ñ-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--permite que se vea bien las escalas en los dispositivos mobiles-->
+    
+    <!--<link rel="stylesheet" href="css/normalize.css">  >>se uso abajo en preload para cargar antes que el resto de documento, mejora performance !-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="css/style.css">  >>se cambio por la precarga preload!-->
+    <title>Metodo TPF</title>
+    <meta name="description" content="Metodo TPF con la doctora Gineth Avila, como obtener ingresos adicionales"> <!-- Etiqueta para decribir sitio web, importante para los navegadores-->
+
+    <!--Prefetch-->
+    <link rel="prefetch" href="nosotros.html" > <!--se usa para cargar con anterioridada la pagina que mas visitan lso usuarios despues del index, elegir solo una, con google analitycs sabemos cual es esa pagina mas visitada-->
+
+    <!--Preload, se puede cargar audios, videos, demas elementos que se requieran cargar con anterioridad para el buen performance-->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            
+                <a class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto" >APRENDE CÓMO GENERAR <span>INGRESOS</span> TODOS LOS MESES EN <span> EUROS </span>APLICANDO UN MÉTODO QUE  FUNCIONA AL 100%.</h1>
+                </a>
+             
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">En este evento de 3 clases gratuitas te enseñaré a generar tus primeros 1000€, creando tus propias tiendas en internet.</h2>
+            <div class="header__texto__enlace">
+            <p class="no-margin" >Unete a nuestro grupo exclusivo</p>
+            <a class="header__boton" href="https://chat.whatsapp.com/Lcspv82OSx2LmhPE00muDs">¡QUIERO UNIRME!</a>
+            </div>  
+        </div>
+
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+           <div class="contenido-principal_qs">
+            <h2>¿Quien soy y como puedo ayudarte?</h2>
+            <div class="contenido-principal__img-P">
+                <img class="contenido-principal__img-P__dra" src="./img/TPF_dra_Gineth_Avila.jpeg" alt="Dra Gineth">
+                <p>Soy la Dra Gineth Ávila, medica especialista en atención temprana, CEO de @gugugaby.ma y emprendedora; hace un año descubrí un camino diferente para mejorar la vida financiera de mi familia y darles una vida con una esposa y madre más presente.<br>
+                    Entiendo que si eres nueva en esto, puede ser confuso tomar un camino, entre tantas opciones que encuentras en el mercado. Por lo cual con mi equipo de trabajo, TE ENSEÑARÉ el metodo TPF para que puedas aperturar tus propias tiendas en línea y hacer que te generen una renta mensual en euros.
+                    Con el método TPF hemos ayudado a más de 1000 personas a cambiar su dinámica familiar; registrate para que puedas aprenderlo tu también.</p>
+            </div>
+           </div>
+
+            <div class="aprender">
+                <a class="header__boton" href="https://chat.whatsapp.com/Lcspv82OSx2LmhPE00muDs">¡QUIERO ACCEDER YA MISMO!</a>
+                <h2>APRENDERÁS</h2>
+
+                <div class="aprender_cont">
+                <div class="aprender__tarjeta">
+                    <img src="./img/TPF_euros.png" alt="TPF_ganancia">
+                    <p>Generar tu primera renta en euros mes a mes</p>
+
+                </div>
+                <div class="aprender__tarjeta">
+                    <img src="./img/TPF_euros.png" alt="TPF_oficina">
+                    <p>Generar tu primera renta en euros mes a mes</p>
+
+                </div>
+                <div class="aprender__tarjeta">
+                    <img src="./img/TPF_euros.png" alt="TPF_ganancia">
+                    <p>Generar tu primera renta en euros mes a mes</p>
+
+                </div>
+                <div class="aprender__tarjeta">
+                    <img src="./img/TPF_euros.png" alt="TPF_ganancia">
+                    <p>Generar tu primera renta en euros mes a mes</p>
+                </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <form class="formulario">
+            <h3>Reserva tu cupo totalmente <span> GRATIS</span> para las masterclass el 28 de febrero, 1 y 2 de marzo llenando el formulario</h3>
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input
+                 class="campo__field"
+                type="text" 
+                placeholder="Tu Nombre" 
+                id="nombre">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input
+                class="campo__field" 
+                type="email" 
+                placeholder="Tu email" 
+                id="email">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea 
+                class="campo__field campo__field--textarea"
+                placeholder="Deja tu mensaje" 
+                id="mensaje"></textarea>
+            </div>
+
+            <div class="campo campo_submit">
+                <input 
+                type="submit" 
+                value="Enviar" class="campo__label--textarea boton boton--primario">
+            </div>
+        
+        </form>
+
+    
+         
+    </div>
+
+   <form action=""></form>
+
+
+    <script src="js/modernizr.js"></script> <!--se copio archivo desde la pagina modernizr.com, archivo webp, se creo archivo .js y se cargo la clase en css para los navegadores que lo soportan-->
+    
+</body>
+</html> 
