@@ -115,8 +115,9 @@ h1{
 }
 @media (min-width: 768px) {
    .header__texto{
-    margin: 10rem;
-    font-size: 4rem;
+    max-width: 95%;
+    /* margin: 10rem; */
+    font-size: 3.8rem;
    }
  }
 
