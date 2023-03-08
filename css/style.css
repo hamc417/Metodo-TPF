@@ -28,7 +28,7 @@ body{
     font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 1.2;
-    background: linear-gradient(var(--negro),50%,#5B8FB9, var(--negro));
+    background: linear-gradient(var(--terciario), 5% ,var(--negro) 90%,var(--secundario));
     color: var(--blanco);
 }
 
@@ -131,10 +131,11 @@ h1{
     }
 
   .logo__nombre{
-    background-color: blue;
-padding: 3rem;
-border: 1px solid;
-border-radius: 2rem;
+    background-color: var(--blanco);
+    padding: 3rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    color: var(--secundario);
   }
 
   span{
@@ -202,8 +203,10 @@ padding-top: 4rem;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
     padding: 5rem;
-   
-   }
+    text-align: justify;
+      }
+
+
    .contenido-principal__img-P__dra{
     background-color: transparent;
     border-radius: 10rem;
@@ -229,9 +232,8 @@ padding-top: 4rem;
     height: 52rem;}
  }
   .aprender_cont{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
 
@@ -249,12 +251,15 @@ padding-top: 4rem;
    @media (min-width: 768px) {
     .aprender__tarjeta{
       width: 10rem;
-  height: 10rem;
-  margin-bottom: 10rem;
+      height: 10rem;
+      margin-bottom: 10rem;
     }
     }
   .aprender__tarjeta{
-    width: 10rem;
+    width: 13rem;
+    
+    text-align: center;
+    margin: 0 auto;
 
   }
   
